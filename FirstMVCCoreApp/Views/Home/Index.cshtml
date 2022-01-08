@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h1>Welcome to book store application</h1>
+
+    <h1>Single line => </h1>
+    <h1>@DateTime.Now.ToString("dd-MMMM-yyyy HH:mm:ss")</h1>
+
+    <h1>Sun = @(3+6)</h1>
+    <hr />
+
+    <h1>Multiline => </h1>
+
+    @{
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+    }
+
+    <h3>C = @c</h3>
+
+    <h2>My email is tjtik83@gmail.com</h2>
+
+    <p>This is the home page of out book store application</p>
+</body>
+</html>
