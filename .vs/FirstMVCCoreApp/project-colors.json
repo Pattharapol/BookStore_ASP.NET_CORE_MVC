@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8d5405f8-58d0-418d-aa63-ff9e35918432": {
+      "ProjectGuid": "8d5405f8-58d0-418d-aa63-ff9e35918432",
+      "DisplayName": "FirstMVCCoreApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
