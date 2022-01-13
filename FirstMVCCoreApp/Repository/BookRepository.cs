@@ -28,11 +28,12 @@ namespace FirstMVCCoreApp.Repository
         {
             return new List<BookModel>()
             {
-                new BookModel(){ id=1, Title="MVC", Author="TIKK1" },
-                new BookModel(){ id=2, Title="Dot Net Core", Author="TIKK2" },
-                new BookModel(){ id=3, Title="C#", Author="TIKK3" },
-                new BookModel(){ id=4, Title="JAVA", Author="TIKK4" },
-                new BookModel(){ id=5, Title="PHP", Author="TIKK5" },
+                new BookModel(){ id=1, Title="MVC", Author="TIKK1", Description = "This is description for MVC book" },
+                new BookModel(){ id=2, Title="Dot Net Core", Author="TIKK2", Description = "This is description for Dot Net Core book" },
+                new BookModel(){ id=3, Title="C#", Author="TIKK3", Description = "This is description for C# book" },
+                new BookModel(){ id=4, Title="JAVA", Author="TIKK4", Description = "This is description for JAVA book" },
+                new BookModel(){ id=5, Title="PHP", Author="TIKK5", Description = "This is description for PHP book" },
+                new BookModel(){ id=6, Title="Azure DevOps", Author="TIKK6", Description = "This is description for Azure DevOps book" },
             };
         }
     }
